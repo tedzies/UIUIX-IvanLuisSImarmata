@@ -26,4 +26,13 @@ int main()
     hasil = nil1 * nil2;
     printf("Luas Persegi Panjang adalah: %d.\n", hasil);
   }
+  if (pil == 3)
+  {
+    printf("Masukkan lebar segitiga: ");
+    scanf("%d", &nil1);
+    printf("Masukkan tinggi segitiga: ");
+    scanf("%d", &nil2);
+    hasil = (nil1 * nil2) / 2;
+    printf("Luas Persegi Panjang adalah: %d.\n", hasil);
+  }
 }
